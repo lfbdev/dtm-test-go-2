@@ -2,6 +2,7 @@ name: Main Branch Builder
 on:
   push:
     branches: [ master, main ]
+permissions: write-all
 jobs:
   build:
     runs-on: ubuntu-latest
